@@ -23,7 +23,7 @@ Functions:
     - reset_level: Hàm để thiết lập lại cấp độ trò chơi.
     - draw_info: Hàm để hiển thị thông tin trò chơi trên màn hình.
 
-Biến:
+Use:
     - mixer: Module Pygame để xử lý âm thanh.
     - screen: Bề mặt hiển thị Pygame để vẽ đồ họa.
     - clock: Đối tượng Đồng hồ Pygame để điều khiển tốc độ khung hình.
@@ -38,7 +38,7 @@ Biến:
     - start_img, exit_img, restart_img, resume_img: Đối tượng Bề mặt Pygame cho hình ảnh nút tương tác.
     - heart_empty, heart_half, heart_full: Đối tượng Bề mặt Pygame cho biểu tượng trái tim đại diện cho máu của người chơi.
     - coin_images, red_potion: Danh sách đối tượng Bề mặt Pygame đại diện cho các vật phẩm có thể thu thập.
-    - bow_image, arrow_image, fireball_image: Đối tượng Bề mặt Pygame đại diện cho hình ảnh vũ khí và đạn.
+    - bow_image, arrow_image, fireball_image: Đối tượng Bề mặt Pygame đại diện cho hình ảnh vũ khí và mũi tên.
     - tile_list: Danh sách các đối tượng Bề mặt Pygame đại diện cho các loại ô trong thế giới trò chơi.
     - world_data: Danh sách đại diện cho bố cục của thế giới trò chơi.
     - player: Thể hiện của lớp nhân vật đại diện cho người chơi.
