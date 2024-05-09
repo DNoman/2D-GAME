@@ -23,7 +23,7 @@ Functions:
     - reset_level: Hàm để thiết lập lại cấp độ trò chơi.
     - draw_info: Hàm để hiển thị thông tin trò chơi trên màn hình.
 
-Use:
+Variables:
     - mixer: Module Pygame để xử lý âm thanh.
     - screen: Bề mặt hiển thị Pygame để vẽ đồ họa.
     - clock: Đối tượng Đồng hồ Pygame để điều khiển tốc độ khung hình.
@@ -47,7 +47,7 @@ Use:
     - intro_fade, death_fade: Thể hiện của lớp Screenfade để tạo hiệu ứng mờ màn hình.
     - start_button, exit_button, restart_button, resume_button: Thể hiện của lớp Button để tạo các nút tương tác.
 
-Sử dụng:
+Use:
     - Chạy mã để bắt đầu trò chơi.
     - Sử dụng các phím mũi tên để di chuyển nhân vật.
     - Nhấn phím Escape để tạm dừng trò chơi.
